@@ -19,5 +19,5 @@ host_md5=`find host/ -type f -exec md5sum {} \;|md5sum`
 if [ "$host_md5" != "$cur_md5" ];then
     cd -
     \cp -af host/ /etc/nagios/conf.d/
-    systemctl restart nagios
+    systemctl restart nagios.service
 fi
