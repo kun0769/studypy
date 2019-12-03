@@ -32,7 +32,7 @@ if __name__=='__main__':
     queue=Queue.Queue(10)
     for i in xrange(10):
         queue.put(random.randint(1,10))
-    #并行开启三个进程打印数据
+    #并行开启三个进程打印数据,等于同时开启三个进程
     for i in xrange(3):
         t=MyThread(queue)
         t.start()
