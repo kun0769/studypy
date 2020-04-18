@@ -38,7 +38,7 @@ if __name__=="__main__":
     #192.168.161.1~192.168.161.100
     ips=[ "192.168.161."+str(i) for i in xrange(1,101)]
 
-    #创建multiprocessing.Pool对象 开启是个进程
+    #创建multiprocessing.Pool对象 开启10个进程
     pool=multiprocessing.Pool(processes=10)
 
     try:
