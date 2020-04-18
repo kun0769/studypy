@@ -2,7 +2,7 @@
 #coding:utf8
 #
 #program:
-#    使用threading模块和paramiko模块实现多台机器并行执行命令
+#    使用threading模块和paramiko模块实现多台机器并发执行命令
 #    使用Queue模块 一边生产ip 另一边连接ip执行命令
 #    重写threading.Thread的run方法定义生产和消费模型
 #    使用线程锁lock来控制线程

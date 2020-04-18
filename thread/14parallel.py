@@ -2,7 +2,7 @@
 #coding:utf8
 #
 #program:
-#    使用threading模块和paramiko模块实现多台机器并行执行命令
+#    使用threading模块和paramiko模块实现多台机器并发执行命令
 #
 #history:
 #2020/04/15    kun    V1.0
